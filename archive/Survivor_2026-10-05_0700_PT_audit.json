@@ -1,0 +1,77 @@
+{
+  "audit_schema": "survivor_ranker_audit_v1.0",
+  "code_sha256": "ebefea2ecc3fb099323b4bc47f003c33acef8bcc2169a9de6ae42b1630dac9f7",
+  "data_as_of": "2026-10-02",
+  "input_sha256": {
+    "adjustments": "c3be9636b893831c26406c1747fc678ba3f50eb19124f58ef5fec268972f48bd",
+    "total_return_series": "4fb781294960855d709860faacc58fd60e7e2a2b9afa652318d67b023cc14847",
+    "ts_completed_bars": "871d8623302f90ba58bd9c8813f2207cfabe3fcd07b30d53162eed3162fe478e"
+  },
+  "non_deterministic_run_metadata": {
+    "generated_at_utc": "2026-10-05T14:00:01.454791+00:00",
+    "output_convention": "Existing timestamped operational archives retained"
+  },
+  "output_files": [
+    {
+      "file": "D:\\Algo_Trading\\runtime_state\\Survivor_2026-10-05_0700_PT.csv",
+      "sha256": "44318745c0234ef5c32454a4787f86b567b29beb2d9370b8004123fdd89fb304",
+      "size_bytes": 6046
+    },
+    {
+      "file": "D:\\Algo_Trading\\runtime_state\\Survivor_2026-10-05_0700_PT.xlsx",
+      "sha256": "f910ecca0f0f3e435e29d15aaa3dbf165aa480ee5deec17f2f95f2f9525e5c71",
+      "size_bytes": 12390
+    },
+    {
+      "file": "D:\\Algo_Trading\\runtime_state\\Survivor_Weekly_Review_2026-10-05_0700_PT.json",
+      "sha256": "958a423de6d71ccb85351ed7c4a7590e23ed0dc7cc28ed670b1e1409691cbc43",
+      "size_bytes": 8912
+    }
+  ],
+  "post_checks": {
+    "auto_trade": false,
+    "monthly_selected": [
+      "XLE",
+      "QQQ",
+      "SPY"
+    ],
+    "monthly_targets": {
+      "QQQ": 0.35830953045519764,
+      "SPY": 0.34645121975614457,
+      "XLE": 0.2952392497886577
+    },
+    "symbol_count": 9,
+    "upstream_mutation": false,
+    "weekly_baseline_selected": [
+      "XLE",
+      "QQQ",
+      "SPY"
+    ]
+  },
+  "settings": {
+    "baseline_month": "2026-10",
+    "build_id": "SURVIVOR_MOMENTUM_RANKER_V1_5_WEEKLY_HIL_REVIEW_20261004",
+    "daily_cutoff": "16:15 America/New_York",
+    "p7_max_tilt": 0.5,
+    "required_observations": 2,
+    "reserve": "SGOV",
+    "risky_universe": [
+      "SPY",
+      "QQQ",
+      "TLT",
+      "GLD",
+      "HYG",
+      "XLE",
+      "TIP",
+      "UUP"
+    ],
+    "rolling_12_1_offsets": [
+      21,
+      252
+    ],
+    "short_horizon_gate": false,
+    "slots": 3,
+    "weekly_review_weekday": 4
+  },
+  "settings_sha256": "e78899b4ce6ce0932d690cae4d677d8e03418a8372beb2b6c627e02d188e9e4b"
+}
