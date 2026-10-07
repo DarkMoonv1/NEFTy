@@ -1,0 +1,101 @@
+{
+  "adjustment_cache": {
+    "file": "D:\\Algo_Trading\\runtime_state\\survivor_adjustment_cache\\adjustments_2026-10-07.json",
+    "source": "YAHOO_REFRESH"
+  },
+  "audit_schema": "survivor_ranker_audit_v1.0",
+  "code_sha256": "ef7a0c48682ead6666d05e710626b9ad104df1306b0c600d4823763d4625e26f",
+  "data_as_of": "2026-10-07",
+  "input_sha256": {
+    "adjustments": "44da9a8956ba5d6d0f625af3bfcdc30c7091d8fdc6634ae7d3137c627ca5759f",
+    "current_surveillance_matrix": "8173ca7172b1b9a79c0b477ca324aa7953dfffe1cd80e9d047c4e0be5099d7c8",
+    "live_quotes": "93984e89b7e193320a394879ce228dd83434a180a2d09ae26ca2d98955af863c",
+    "surveillance_series": "62776adfa3e86466e9d7f0bbb43f4af53d4414f0ff69d87ee8391ad92bf33a3d",
+    "total_return_series": "62776adfa3e86466e9d7f0bbb43f4af53d4414f0ff69d87ee8391ad92bf33a3d",
+    "ts_completed_bars": "afea454d000a835d677dac2b754fae8bd8d71a50c1f8bf5bd658c8d6eeb31748"
+  },
+  "live_overlay": {
+    "feeds_current_rank_and_horizon_fields": true,
+    "feeds_monthly_or_weekly_authority": false,
+    "surveillance_only": true,
+    "symbols_available": [
+      "SPY",
+      "QQQ",
+      "TLT",
+      "GLD",
+      "HYG",
+      "XLE",
+      "TIP",
+      "UUP",
+      "SGOV"
+    ],
+    "symbols_unavailable": []
+  },
+  "non_deterministic_run_metadata": {
+    "generated_at_utc": "2026-10-07T20:15:05.002383+00:00",
+    "output_convention": "Existing timestamped operational archives retained"
+  },
+  "output_files": [
+    {
+      "file": "D:\\Algo_Trading\\runtime_state\\Survivor_2026-10-07_1315_PT.csv",
+      "sha256": "8c6bf3eeaa9c441edfbbf95000d3031c26bf5b174c7f11c832901118f3e42d14",
+      "size_bytes": 6948
+    },
+    {
+      "file": "D:\\Algo_Trading\\runtime_state\\Survivor_2026-10-07_1315_PT.xlsx",
+      "sha256": "6e5ba99c9e1860775f89ba0470d47b472a9442f4626d4eedd63d668dd1f56f52",
+      "size_bytes": 13147
+    },
+    {
+      "file": "D:\\Algo_Trading\\runtime_state\\Survivor_Weekly_Review_2026-10-07_1315_PT.json",
+      "sha256": "f3f66a2a54b0c774888bdeb66a9772ba98cb215e027e02e869eb5d977b6aa87a",
+      "size_bytes": 8892
+    }
+  ],
+  "post_checks": {
+    "auto_trade": false,
+    "monthly_selected": [
+      "XLE",
+      "QQQ",
+      "SPY"
+    ],
+    "monthly_targets": {
+      "QQQ": 0.3583095431858343,
+      "SPY": 0.3464512286219292,
+      "XLE": 0.2952392281922366
+    },
+    "symbol_count": 9,
+    "upstream_mutation": false,
+    "weekly_baseline_selected": [
+      "XLE",
+      "QQQ",
+      "SPY"
+    ]
+  },
+  "settings": {
+    "baseline_month": "2026-10",
+    "build_id": "SURVIVOR_MOMENTUM_RANKER_V1_7_LIVE_SURVEILLANCE_20261007",
+    "daily_cutoff": "16:15 America/New_York",
+    "p7_max_tilt": 0.5,
+    "required_observations": 2,
+    "reserve": "SGOV",
+    "risky_universe": [
+      "SPY",
+      "QQQ",
+      "TLT",
+      "GLD",
+      "HYG",
+      "XLE",
+      "TIP",
+      "UUP"
+    ],
+    "rolling_12_1_offsets": [
+      21,
+      252
+    ],
+    "short_horizon_gate": false,
+    "slots": 3,
+    "weekly_review_weekday": 4
+  },
+  "settings_sha256": "831d7f1ba1aee71530365c4653c6fe23ea83a0fb92810dbfb146b2908d4a7b17"
+}
