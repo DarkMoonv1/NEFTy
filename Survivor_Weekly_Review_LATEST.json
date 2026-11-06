@@ -138,7 +138,7 @@
       "change": "PENDING_FIRST_REVIEW",
       "observations": 0,
       "persistence": "PENDING_FIRST_REVIEW",
-      "short_horizon_context": "CONTEXT ONLY; 1m -2.7%, 3m +7.9%, 6m +11.7%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m -2.7%, 3m +7.8%, 6m +11.6%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No completed weekly review in this month; retain monthly authority."
