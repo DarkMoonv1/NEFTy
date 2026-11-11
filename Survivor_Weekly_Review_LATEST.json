@@ -8,9 +8,9 @@
     "SPY"
   ],
   "baseline_targets": {
-    "QQQ": 0.3598781261483142,
-    "SPY": 0.3423274389168702,
-    "XLE": 0.2977944349348155
+    "QQQ": 0.35987813873256236,
+    "SPY": 0.34232741591932175,
+    "XLE": 0.29779444534811594
   },
   "build_id": "SURVIVOR_MOMENTUM_RANKER_V1_7_LIVE_SURVEILLANCE_20261007",
   "candidate_entries": [],
@@ -18,11 +18,11 @@
   "cleared_changes": [],
   "completed_daily_bar_rule": "Today's bar admitted after 16:15 America/New_York",
   "current_shadow": {
-    "date": "2026-11-10",
-    "rank_3_4_gap": 0.10240067791249885,
+    "date": "2026-11-11",
+    "rank_3_4_gap": 0.08905321963197155,
     "ranks": {
-      "GLD": 5,
-      "HYG": 6,
+      "GLD": 6,
+      "HYG": 5,
       "QQQ": 2,
       "SPY": 3,
       "TIP": 7,
@@ -31,14 +31,14 @@
       "XLE": 1
     },
     "scores": {
-      "GLD": 0.03757704107952531,
-      "HYG": 0.015272256536668749,
-      "QQQ": 0.22928676660845326,
-      "SPY": 0.17217562340597126,
-      "TIP": -0.019622812875330187,
-      "TLT": -0.09147677557001299,
-      "UUP": 0.0697749454934724,
-      "XLE": 0.5164633863537498
+      "GLD": 0.008694962735874112,
+      "HYG": 0.009252799394556588,
+      "QQQ": 0.19869656808639657,
+      "SPY": 0.15403210775062415,
+      "TIP": -0.01923670775711228,
+      "TLT": -0.0875480557568965,
+      "UUP": 0.0649788881186526,
+      "XLE": 0.5297918128355108
     },
     "selected": [
       "XLE",
@@ -46,17 +46,17 @@
       "SPY"
     ],
     "targets": {
-      "QQQ": 0.36060743341646506,
-      "SPY": 0.3442910953894713,
-      "XLE": 0.2951014711940636
+      "QQQ": 0.3563039725777037,
+      "SPY": 0.34365645199395123,
+      "XLE": 0.3000395754283451
     }
   },
-  "data_as_of": "2026-11-10",
+  "data_as_of": "2026-11-11",
   "exported_official_effective_month": "2026-11",
   "exported_official_targets": {
-    "QQQ": 0.3598781261483142,
-    "SPY": 0.3423274389168702,
-    "XLE": 0.2977944349348155
+    "QQQ": 0.35987813873256236,
+    "SPY": 0.34232741591932175,
+    "XLE": 0.29779444534811594
   },
   "hil_instruction": "Review the dated evidence and actual holdings. Any early action requires HIL judgment; monthly model targets remain authoritative.",
   "latest_weekly_shadow": {
@@ -79,10 +79,10 @@
       "HYG": 0.014564943977461331,
       "QQQ": 0.20506436162993835,
       "SPY": 0.1545200477771307,
-      "TIP": -0.016597488120618786,
+      "TIP": -0.0165975587122571,
       "TLT": -0.0873566119398117,
       "UUP": 0.057879938069701486,
-      "XLE": 0.535120520717645
+      "XLE": 0.5351202451291985
     },
     "selected": [
       "XLE",
@@ -90,9 +90,9 @@
       "SPY"
     ],
     "targets": {
-      "QQQ": 0.3571976338237102,
-      "SPY": 0.34304078224284823,
-      "XLE": 0.2997615839334416
+      "QQQ": 0.3571976448760834,
+      "SPY": 0.3430407867386996,
+      "XLE": 0.29976156838521706
     }
   },
   "next_month_recipe_mode": false,
@@ -101,7 +101,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m -3.3%, 3m -8.8%, 6m -14.7%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m -4.3%, 3m -8.5%, 6m -15.2%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -110,7 +110,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m -0.1%, 3m -2.1%, 6m -1.0%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m +0.3%, 3m -2.1%, 6m -0.8%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -119,7 +119,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m -9.6%, 3m -6.7%, 6m -4.4%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m -7.2%, 3m -5.6%, 6m -3.2%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -137,7 +137,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m -3.6%, 3m -2.7%, 6m +2.1%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m -2.3%, 3m -2.1%, 6m +2.9%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -146,7 +146,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m +0.8%, 3m -1.5%, 6m -2.5%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m +0.7%, 3m -1.8%, 6m -2.5%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -155,7 +155,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m +3.6%, 3m -0.7%, 6m -3.0%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m +3.3%, 3m -1.3%, 6m -2.7%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -164,7 +164,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m +0.1%, 3m +3.4%, 6m +6.2%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m +1.1%, 3m +4.2%, 6m +6.7%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -173,7 +173,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m -5.8%, 3m +2.5%, 6m +9.5%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m -5.7%, 3m +4.4%, 6m +11.4%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -184,7 +184,7 @@
   "previous_weekly_shadow": {
     "date": "2026-10-30",
     "in_baseline_month": false,
-    "rank_3_4_gap": 0.05458120009895451,
+    "rank_3_4_gap": 0.054581300927163845,
     "ranks": {
       "GLD": 5,
       "HYG": 6,
@@ -200,11 +200,11 @@
       "GLD": 0.05443526170798885,
       "HYG": 0.007524914646708236,
       "QQQ": 0.17261983308260276,
-      "SPY": 0.12342690159637026,
-      "TIP": -0.0229805063373002,
-      "TLT": -0.10731530209942497,
+      "SPY": 0.1234270024245796,
+      "TIP": -0.022980366700260046,
+      "TLT": -0.10731545857237923,
       "UUP": 0.06884570149741576,
-      "XLE": 0.46529649817409746
+      "XLE": 0.4652963675290791
     },
     "selected": [
       "XLE",
@@ -212,9 +212,9 @@
       "SPY"
     ],
     "targets": {
-      "QQQ": 0.35727820419231815,
-      "SPY": 0.3413469516257349,
-      "XLE": 0.301374844181947
+      "QQQ": 0.3572781986045491,
+      "SPY": 0.3413469751673677,
+      "XLE": 0.30137482622808315
     }
   },
   "required_observations": 2,
@@ -228,7 +228,7 @@
     {
       "date": "2026-10-30",
       "in_baseline_month": false,
-      "rank_3_4_gap": 0.05458120009895451,
+      "rank_3_4_gap": 0.054581300927163845,
       "ranks": {
         "GLD": 5,
         "HYG": 6,
@@ -244,11 +244,11 @@
         "GLD": 0.05443526170798885,
         "HYG": 0.007524914646708236,
         "QQQ": 0.17261983308260276,
-        "SPY": 0.12342690159637026,
-        "TIP": -0.0229805063373002,
-        "TLT": -0.10731530209942497,
+        "SPY": 0.1234270024245796,
+        "TIP": -0.022980366700260046,
+        "TLT": -0.10731545857237923,
         "UUP": 0.06884570149741576,
-        "XLE": 0.46529649817409746
+        "XLE": 0.4652963675290791
       },
       "selected": [
         "XLE",
@@ -256,9 +256,9 @@
         "SPY"
       ],
       "targets": {
-        "QQQ": 0.35727820419231815,
-        "SPY": 0.3413469516257349,
-        "XLE": 0.301374844181947
+        "QQQ": 0.3572781986045491,
+        "SPY": 0.3413469751673677,
+        "XLE": 0.30137482622808315
       }
     },
     {
@@ -281,10 +281,10 @@
         "HYG": 0.014564943977461331,
         "QQQ": 0.20506436162993835,
         "SPY": 0.1545200477771307,
-        "TIP": -0.016597488120618786,
+        "TIP": -0.0165975587122571,
         "TLT": -0.0873566119398117,
         "UUP": 0.057879938069701486,
-        "XLE": 0.535120520717645
+        "XLE": 0.5351202451291985
       },
       "selected": [
         "XLE",
@@ -292,9 +292,9 @@
         "SPY"
       ],
       "targets": {
-        "QQQ": 0.3571976338237102,
-        "SPY": 0.34304078224284823,
-        "XLE": 0.2997615839334416
+        "QQQ": 0.3571976448760834,
+        "SPY": 0.3430407867386996,
+        "XLE": 0.29976156838521706
       }
     }
   ]
