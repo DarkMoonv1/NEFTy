@@ -137,7 +137,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m -5.1%, 3m -4.1%, 6m -1.0%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m -5.1%, 3m -4.0%, 6m -1.0%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
