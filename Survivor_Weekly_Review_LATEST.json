@@ -137,7 +137,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m -6.2%, 3m -6.0%, 6m -3.8%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m -6.1%, 3m -5.9%, 6m -3.7%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
@@ -173,7 +173,7 @@
       "change": "UNCHANGED",
       "observations": 0,
       "persistence": "UNCHANGED",
-      "short_horizon_context": "CONTEXT ONLY; 1m -13.2%, 3m -2.6%, 6m +7.4%. No mechanical gate.",
+      "short_horizon_context": "CONTEXT ONLY; 1m -13.2%, 3m -2.6%, 6m +7.5%. No mechanical gate.",
       "status": "HOLD",
       "still_in_daily_shadow": null,
       "summary": "No weekly membership exception; retain monthly authority."
